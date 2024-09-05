@@ -1,0 +1,14 @@
+{
+  "name": "js-executor-webhook",
+  "version": "1.0.0",
+  "description": "A Node.js server with a webhook to execute JavaScript code",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "vm2": "^3.9.9",
+    "sqlite3": "^5.0.2"
+  }
+}
